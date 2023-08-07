@@ -55,12 +55,10 @@ As soon as you are done with the setup, all necessary database tables will be cr
 Note: If you updated the script, please visit http://(server)/(script-name).php?action=setup again, to make sure, that any database changes are applied and no errors occur.
 
 Translating:
-------------
-
-Translations are managed in [Weblate](https://weblate.danwin1210.de/projects/DanWin/le-chat-php).
+-----------
 If you prefer manually submitting translations, the script `update-translations.sh` can be used to update the language template and translation files from source.
 It will generate the file `locale/le-chat-php.pot` which you can then use as basis to create a new language file in `YOUR_LANG_CODE/LC_MESSAGES/le-chat-php.po` and edit it with a translation program, such as [Poedit](https://poedit.net/).
-Once you are done, you can open a pull request, or [email me](mailto:daniel@danwin1210.de), to include the translation.
+Once you are done, you can open a pull request, to include the translation.
 
 Regex:
 ------
